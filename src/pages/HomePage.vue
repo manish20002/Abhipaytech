@@ -48,7 +48,7 @@ const emit = defineEmits<{
         </div>
 
         <div class="rounded-3xl bg-white p-6 shadow-xl shadow-slate-200 ring-1 ring-slate-200">
-          <img src="/images/Abhipaytech_logo.png" alt="Abhi Pay Tech Private Limited" class="w-full rounded-2xl" />
+          <img src="/Abhipaytech/images/Abhipaytech_logo.png" alt="Abhi Pay Tech Private Limited" class="w-full rounded-2xl" />
         </div>
       </div>
     </section>
