@@ -67,7 +67,7 @@ const faqs = [
           </div>
 
           <div class="rounded-3xl border border-slate-800 bg-white/5 p-6 shadow-2xl shadow-indigo-950/40 backdrop-blur-sm">
-            <img src="./images/Abhipaytech_logo.png" alt="AbhiPay logo" class="w-full rounded-2xl border border-slate-700 bg-slate-100 p-5" />
+            <img src="/images/Abhipaytech_logo.png" alt="AbhiPay logo" class="w-full rounded-2xl border border-slate-700 bg-slate-100 p-5" />
           </div>
         </div>
       </section>
