@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Navbar from './Navbar.vue'
 
+const logoUrl = new URL('../public/images/Abhipaytech_logo.png', import.meta.url).href
+
 const solutions = [
   {
     title: 'Fast Payments',
@@ -67,7 +69,7 @@ const faqs = [
           </div>
 
           <div class="rounded-3xl border border-slate-800 bg-white/5 p-6 shadow-2xl shadow-indigo-950/40 backdrop-blur-sm">
-            <img src="/Abhipaytech/images/Abhipaytech_logo.png" alt="AbhiPay logo" class="w-full rounded-2xl border border-slate-700 bg-slate-100 p-5" />
+            <img :src="logoUrl" alt="AbhiPay logo" class="w-full rounded-2xl border border-slate-700 bg-slate-100 p-5" />
           </div>
         </div>
       </section>
