@@ -17,7 +17,7 @@ const isMenuOpen = ref(false)
   <nav class="fixed top-0 z-50 w-full border-b border-slate-800 bg-slate-950/80 backdrop-blur-xl">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
       <a href="#home" class="flex items-center gap-3" @click="isMenuOpen = false">
-        <img src="/images/Abhipaytech_logo.png" alt="AbhiPay logo" class="h-9 w-9 rounded-lg bg-white p-1 object-contain" />
+        <img src="./images/Abhipaytech_logo.png" alt="AbhiPay logo" class="h-9 w-9 rounded-lg bg-white p-1 object-contain" />
         <span class="text-base font-semibold text-white sm:text-lg">AbhiPayTech</span>
       </a>
 
